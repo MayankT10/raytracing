@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/First-Image.dir/link.d "CMakeFiles/First-Image.dir/first_image.cpp.o" -o First-Image

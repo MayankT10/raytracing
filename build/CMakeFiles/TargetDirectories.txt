@@ -1,0 +1,3 @@
+/home/mayank/Code/raytracing/build/CMakeFiles/First-Image.dir
+/home/mayank/Code/raytracing/build/CMakeFiles/edit_cache.dir
+/home/mayank/Code/raytracing/build/CMakeFiles/rebuild_cache.dir
