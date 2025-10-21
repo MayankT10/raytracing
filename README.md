@@ -1,3 +1,4 @@
-## Preview of First Image
+# Sample of Images generated using cpp
 
-![First Image](https://github.com/user-attachments/assets/829fc0b1-5eba-42a1-b7e8-79a52f6bf5ce)
+![Image 01](build/image_01.jpeg)
+![Image 03](build/image_03.jpeg)

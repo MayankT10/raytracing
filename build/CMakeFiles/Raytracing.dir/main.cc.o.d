@@ -163,4 +163,5 @@ CMakeFiles/Raytracing.dir/main.cc.o: /home/mayank/Code/raytracing/main.cc \
  /usr/include/c++/15.2.1/bits/locale_facets.tcc \
  /usr/include/c++/15.2.1/bits/basic_ios.tcc \
  /usr/include/c++/15.2.1/bits/ostream.tcc /usr/include/c++/15.2.1/istream \
- /usr/include/c++/15.2.1/bits/istream.tcc
+ /usr/include/c++/15.2.1/bits/istream.tcc \
+ /home/mayank/Code/raytracing/ray.h
