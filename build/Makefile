@@ -117,41 +117,41 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named First-Image
+# Target rules for targets named Raytracing
 
 # Build rule for target.
-First-Image: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 First-Image
-.PHONY : First-Image
+Raytracing: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Raytracing
+.PHONY : Raytracing
 
 # fast build rule for target.
-First-Image/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/First-Image.dir/build.make CMakeFiles/First-Image.dir/build
-.PHONY : First-Image/fast
+Raytracing/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Raytracing.dir/build.make CMakeFiles/Raytracing.dir/build
+.PHONY : Raytracing/fast
 
-first_image.o: first_image.cpp.o
-.PHONY : first_image.o
+main.o: main.cc.o
+.PHONY : main.o
 
 # target to build an object file
-first_image.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/First-Image.dir/build.make CMakeFiles/First-Image.dir/first_image.cpp.o
-.PHONY : first_image.cpp.o
+main.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Raytracing.dir/build.make CMakeFiles/Raytracing.dir/main.cc.o
+.PHONY : main.cc.o
 
-first_image.i: first_image.cpp.i
-.PHONY : first_image.i
+main.i: main.cc.i
+.PHONY : main.i
 
 # target to preprocess a source file
-first_image.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/First-Image.dir/build.make CMakeFiles/First-Image.dir/first_image.cpp.i
-.PHONY : first_image.cpp.i
+main.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Raytracing.dir/build.make CMakeFiles/Raytracing.dir/main.cc.i
+.PHONY : main.cc.i
 
-first_image.s: first_image.cpp.s
-.PHONY : first_image.s
+main.s: main.cc.s
+.PHONY : main.s
 
 # target to generate assembly for a file
-first_image.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/First-Image.dir/build.make CMakeFiles/First-Image.dir/first_image.cpp.s
-.PHONY : first_image.cpp.s
+main.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Raytracing.dir/build.make CMakeFiles/Raytracing.dir/main.cc.s
+.PHONY : main.cc.s
 
 # Help Target
 help:
@@ -161,10 +161,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... First-Image"
-	@echo "... first_image.o"
-	@echo "... first_image.i"
-	@echo "... first_image.s"
+	@echo "... Raytracing"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
 .PHONY : help
 
 

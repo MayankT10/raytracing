@@ -63,11 +63,11 @@ CMAKE_BINARY_DIR = /home/mayank/Code/raytracing/build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/First-Image.dir/all
+all: CMakeFiles/Raytracing.dir/all
 .PHONY : all
 
 # The main recursive "codegen" target.
-codegen: CMakeFiles/First-Image.dir/codegen
+codegen: CMakeFiles/Raytracing.dir/codegen
 .PHONY : codegen
 
 # The main recursive "preinstall" target.
@@ -75,40 +75,40 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/First-Image.dir/clean
+clean: CMakeFiles/Raytracing.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/First-Image.dir
+# Target rules for target CMakeFiles/Raytracing.dir
 
 # All Build rule for target.
-CMakeFiles/First-Image.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/First-Image.dir/build.make CMakeFiles/First-Image.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/First-Image.dir/build.make CMakeFiles/First-Image.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/mayank/Code/raytracing/build/CMakeFiles --progress-num=1,2 "Built target First-Image"
-.PHONY : CMakeFiles/First-Image.dir/all
+CMakeFiles/Raytracing.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Raytracing.dir/build.make CMakeFiles/Raytracing.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Raytracing.dir/build.make CMakeFiles/Raytracing.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/mayank/Code/raytracing/build/CMakeFiles --progress-num=1,2 "Built target Raytracing"
+.PHONY : CMakeFiles/Raytracing.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/First-Image.dir/rule: cmake_check_build_system
+CMakeFiles/Raytracing.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mayank/Code/raytracing/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/First-Image.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Raytracing.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mayank/Code/raytracing/build/CMakeFiles 0
-.PHONY : CMakeFiles/First-Image.dir/rule
+.PHONY : CMakeFiles/Raytracing.dir/rule
 
 # Convenience name for target.
-First-Image: CMakeFiles/First-Image.dir/rule
-.PHONY : First-Image
+Raytracing: CMakeFiles/Raytracing.dir/rule
+.PHONY : Raytracing
 
 # codegen rule for target.
-CMakeFiles/First-Image.dir/codegen:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/First-Image.dir/build.make CMakeFiles/First-Image.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/mayank/Code/raytracing/build/CMakeFiles --progress-num=1,2 "Finished codegen for target First-Image"
-.PHONY : CMakeFiles/First-Image.dir/codegen
+CMakeFiles/Raytracing.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Raytracing.dir/build.make CMakeFiles/Raytracing.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/mayank/Code/raytracing/build/CMakeFiles --progress-num=1,2 "Finished codegen for target Raytracing"
+.PHONY : CMakeFiles/Raytracing.dir/codegen
 
 # clean rule for target.
-CMakeFiles/First-Image.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/First-Image.dir/build.make CMakeFiles/First-Image.dir/clean
-.PHONY : CMakeFiles/First-Image.dir/clean
+CMakeFiles/Raytracing.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Raytracing.dir/build.make CMakeFiles/Raytracing.dir/clean
+.PHONY : CMakeFiles/Raytracing.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

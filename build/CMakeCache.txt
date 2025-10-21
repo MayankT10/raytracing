@@ -151,7 +151,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=First-Image
+CMAKE_PROJECT_NAME:STATIC=Raytracing
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/usr/bin/ranlib
@@ -226,6 +226,15 @@ First-Image_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
 First-Image_SOURCE_DIR:STATIC=/home/mayank/Code/raytracing
+
+//Value Computed by CMake
+Raytracing_BINARY_DIR:STATIC=/home/mayank/Code/raytracing/build
+
+//Value Computed by CMake
+Raytracing_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+Raytracing_SOURCE_DIR:STATIC=/home/mayank/Code/raytracing
 
 
 ########################

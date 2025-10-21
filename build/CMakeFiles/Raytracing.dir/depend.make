@@ -1,2 +1,2 @@
-# Empty dependencies file for First-Image.
+# Empty dependencies file for Raytracing.
 # This may be replaced when dependencies are built.
