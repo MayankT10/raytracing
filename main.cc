@@ -43,7 +43,7 @@ int main() {
 
   // Image
   auto aspect_ratio = 16.0 / 9.0;
-  int image_width = 400;
+  int image_width = 800;
 
   // Image height
   int image_height = int(image_width / aspect_ratio);
