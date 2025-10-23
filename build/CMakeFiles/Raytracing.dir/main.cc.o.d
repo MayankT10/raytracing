@@ -1,6 +1,6 @@
 CMakeFiles/Raytracing.dir/main.cc.o: /home/mayank/Code/raytracing/main.cc \
- /usr/include/stdc-predef.h /home/mayank/Code/raytracing/color.h \
- /home/mayank/Code/raytracing/vec3.h /usr/include/c++/15.2.1/cmath \
+ /usr/include/stdc-predef.h /home/mayank/Code/raytracing/general.h \
+ /usr/include/c++/15.2.1/cmath \
  /usr/include/c++/15.2.1/bits/requires_hosted.h \
  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/c++config.h \
  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/os_defines.h \
@@ -163,5 +163,28 @@ CMakeFiles/Raytracing.dir/main.cc.o: /home/mayank/Code/raytracing/main.cc \
  /usr/include/c++/15.2.1/bits/locale_facets.tcc \
  /usr/include/c++/15.2.1/bits/basic_ios.tcc \
  /usr/include/c++/15.2.1/bits/ostream.tcc /usr/include/c++/15.2.1/istream \
- /usr/include/c++/15.2.1/bits/istream.tcc \
- /home/mayank/Code/raytracing/ray.h
+ /usr/include/c++/15.2.1/bits/istream.tcc /usr/include/c++/15.2.1/memory \
+ /usr/include/c++/15.2.1/bits/stl_tempbuf.h \
+ /usr/include/c++/15.2.1/bits/stl_uninitialized.h \
+ /usr/include/c++/15.2.1/bits/stl_raw_storage_iter.h \
+ /usr/include/c++/15.2.1/bits/align.h \
+ /usr/include/c++/15.2.1/bits/unique_ptr.h \
+ /usr/include/c++/15.2.1/bits/shared_ptr.h \
+ /usr/include/c++/15.2.1/bits/shared_ptr_base.h \
+ /usr/include/c++/15.2.1/bits/allocated_ptr.h \
+ /usr/include/c++/15.2.1/ext/aligned_buffer.h \
+ /usr/include/c++/15.2.1/ext/concurrence.h \
+ /usr/include/c++/15.2.1/bits/shared_ptr_atomic.h \
+ /usr/include/c++/15.2.1/bits/atomic_base.h \
+ /usr/include/c++/15.2.1/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/15.2.1/backward/auto_ptr.h \
+ /usr/include/c++/15.2.1/pstl/glue_memory_defs.h \
+ /usr/include/c++/15.2.1/pstl/execution_defs.h \
+ /home/mayank/Code/raytracing/color.h /home/mayank/Code/raytracing/vec3.h \
+ /home/mayank/Code/raytracing/ray.h \
+ /home/mayank/Code/raytracing/hittable.h \
+ /home/mayank/Code/raytracing/hittable_list.h \
+ /usr/include/c++/15.2.1/vector /usr/include/c++/15.2.1/bits/stl_vector.h \
+ /usr/include/c++/15.2.1/bits/stl_bvector.h \
+ /usr/include/c++/15.2.1/bits/vector.tcc \
+ /home/mayank/Code/raytracing/sphere.h
