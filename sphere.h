@@ -2,7 +2,6 @@
 #define SPHERE_H
 
 #include "hittable.h"
-// #include "vec3.h"
 
 class sphere : public hittable {
   public:
@@ -16,19 +15,19 @@ class sphere : public hittable {
         auto h = dot(r.direction(), oc);
         auto c = oc.length_squared() - radius * radius;
 
-        auto discriminant = h*h - a*c;
+        auto discriminant = h * h - a * c;
         if (discriminant < 0) {
             return false;
         }
 
         auto sqrtd = std::sqrt(discriminant);
-        auto root = (h-sqrtd) / a;
+        auto root = (h - sqrtd) / a;
         if (root <= ray_tmin || ray_tmax <= root) {
             root = (h + sqrtd) / a;
-            if (root <= ray_tmin|| ray_tmax <= root) {
+            if (root <= ray_tmin || ray_tmax <= root) {
                 return false;
             }
-        } 
+        }
 
         rec.t = root;
         rec.p = r.at(rec.t);

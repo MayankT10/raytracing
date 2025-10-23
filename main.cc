@@ -1,34 +1,9 @@
 #include "general.h"
-// #include "color.h"
-// #include "ray.h"
-// #include "vec3.h"
 #include "hittable.h"
 #include "hittable_list.h"
 #include "sphere.h"
 
-// #include <iostream>
-
-// double hit_sphere(const point3& center, double radius, const ray& r) {
-//     // radius is sphere radius
-//     // r is ray
-//
-//     // Vector oc = C- Q
-//     // Q is ray origin
-//     vec3 oc = center - r.origin();
-//     // A vector doted with itself is equal to square length of that vector
-//     auto a = r.direction().length_squared();
-//     // Simplifying sphere intersection
-//     auto h =  dot(r.direction(), oc);
-//     auto c = oc.length_squared() - radius * radius;
-//     auto discriminant = h*h - a*c;
-//
-//     if (discriminant < 0) {
-//         return -1.0;
-//     } else {
-//         return (h - std::sqrt(discriminant)) / a;
-//     }
-//
-// }
+#include <iostream>
 
 color ray_color(const ray &r, const hittable &world) {
     hit_record rec;
@@ -40,18 +15,6 @@ color ray_color(const ray &r, const hittable &world) {
     auto a = 0.5 * (unit_direction.y() + 1.0);
     return (1.0 - a) * color(1.0, 1.0, 1.0) + a * color(0.5, 0.7, 1.0);
 }
-
-// color ray_color(const ray &r) {
-//     auto t = hit_sphere(point3(0,0,-1),0.5,r);
-//     if (t > 0.0) {
-//         vec3 N = unit_vector(r.at(t) - vec3(0,0,-1));
-//         return 0.5*color( N.x() + 1, N.y() + 1, N.z() + 1);
-//     }
-//
-//     vec3 unit_direction = unit_vector(r.direction());
-//     auto a = 0.5 * (unit_direction.y() + 1.0 );
-//     return (1.0 - a) * color(1.0,1.0,1.0) + a * color(0.5,0.7,1.0);
-// }
 
 int main() {
 
