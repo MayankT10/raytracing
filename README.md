@@ -1,7 +1,14 @@
-# Sample of Images generated using cpp
+<p align="center">
 
-![Image 01](build/image_01.jpeg)
-![Image 03](build/image_03.jpeg)
-![Image 19](build/image_19.jpeg)
-![Image 20](build/image_21.jpeg)
-![Image 23](build/image_23.jpeg)
+# Progress Till Now (Latest Image)
+
+<img src="build/image_23.jpeg" alt="Image 23" width="400" style="margin: 20px 0;">
+
+<details>
+  <summary>…</summary>
+
+Honestly got humbled. Not giving up, just postponing it.
+
+</details>
+
+</p>

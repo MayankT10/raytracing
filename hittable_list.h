@@ -13,6 +13,8 @@ class hittable_list : public hittable {
   public:
     std::vector<shared_ptr<hittable>> objects;
 
+    virtual bool hit(const ray& r, interval ray_t, hit_record& rec) const = 0;
+
     hittable_list() {}
     hittable_list(shared_ptr<hittable> object) { add(object); }
 
