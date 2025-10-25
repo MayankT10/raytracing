@@ -1,14 +1,15 @@
-<p align="center">
+<div align="center">
 
 # Progress Till Now (Latest Image)
 
-<img src="build/image_23.jpeg" alt="Image 23" width="400" style="margin: 20px 0;">
+<img src="build/image_23.jpeg" alt="Image 23" width="800" style="margin: 20px 0;">
 
 <details>
   <summary>…</summary>
-
+  
 Honestly got humbled. Not giving up, just postponing it.
 
 </details>
 
-</p>
+</div>
+
